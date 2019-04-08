@@ -103,3 +103,4 @@
 
 // TO READ
 // https://moxie.org/
+// https://www.offensive-security.com/

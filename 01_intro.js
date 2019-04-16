@@ -128,4 +128,11 @@
 // детект ip
 // https://whatismyipaddress.com
 
+// сканер уязвимостей
+// https://www.qualys.com/forms/freescan/
 
+// онлайн hash декрипторы
+// https://www.raymond.cc/blog/ask-raymond-how-to-decrypt-md5-hashed-strings/
+
+// обход http proxy
+// https://github.com/bryanpkc/corkscrew

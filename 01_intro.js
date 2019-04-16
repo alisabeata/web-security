@@ -117,3 +117,15 @@
 // TO READ
 // https://moxie.org/
 // https://www.offensive-security.com/
+// https://blog.invisiblethings.org/contact/  |  https://twitter.com/rootkovska
+
+
+// LINKS
+// поисковик уязвимых устройств (гугл для поиска уязвимостей), в интеренете вещей)
+// https://www.shodan.io/
+// можно поискать список уязвимостей в маршрутизаторах
+
+// детект ip
+// https://whatismyipaddress.com
+
+

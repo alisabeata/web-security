@@ -26,4 +26,27 @@ route -n get default // MacOS
 443 -  HTTPS
 
 
+// Сервис для поиска уязвимых устройств в интернетах
+// как гугл для поиска уязвимостей в интернете вещей
+// https://www.shodan.io/
 
+
+// (!) как пример перенапр портов через DMZ открывает доступ к устройству из интернета
+
+// (!) к роутеру так же возможно подк по ssh (22 порт), 
+ssh yourlogin@192.168.1.1
+
+netstat -tuln   // проверка портов
+
+
+// Сервис для сканирования портов доступных из инета
+// https://pentest-tools.com/network-vulnerability-scanning/network-security-scanner-online-openvas
+// все порты должны быть закрыты для доступа
+
+
+// Утилита по поиску уязвимостей
+// https://www.qualys.com/
+
+// утилита для сканирования локальной сетй (iOS)
+// fing-network-scanner
+// https://apps.apple.com/us/app/fing-network-scanner/id430921107

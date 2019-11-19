@@ -50,3 +50,11 @@ netstat -tuln   // проверка портов
 // утилита для сканирования локальной сетй (iOS)
 // fing-network-scanner
 // https://apps.apple.com/us/app/fing-network-scanner/id430921107
+
+// Список кастомизируемых прошивок для роутера
+// https://en.wikipedia.org/wiki/List_of_router_firmware_projects
+// возможн настройки потока трафика через tor, vpn на роутере
+
+// рейтинг роутеров
+// https://www.smallnetbuilder.com/tools/rankers/router/view
+

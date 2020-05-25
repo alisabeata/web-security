@@ -162,3 +162,60 @@ netstat -tuln   // проверка портов
 
 // history.google.com/history - просмотр истории логирования в гугле
 // google.com/settings/accounthistory - настройка логирования
+
+// Secure Browsers
+// - Aviator
+// - SRWare Iron Browser
+// - JonDoFox
+// - Tor
+// - Epic Privacy Browser
+// - Comodo Browsers
+// -- Comodo Ice Dragon (firefox)
+// -- Comodo Dragon (chromium)
+// -- Comodo Chromium Secure (chromium)
+
+// в целях повышения безопасности (уменьшения поверхности атак) рекомендовано откл в браузере Java, Flash, Silverlight
+// второй этап мер: JS, pdf-reader
+// js-ом можно вытянуть мак-адрес и/или аппаратный адрес (на примере пользователей тор, с уязвимостью в фаирфокс)
+// плагин quickJava - для быстрого включения/выключения Java, Js, Flash
+
+// уязвимости межсайтового скриптинга
+// рекламные объявления, почтовый клиент etc
+// метод: инъекции js
+// BeEF - Инструменты Kali Linux для тестирования на проникновение и аудита безопасности
+
+// облачные браузеры (с целью компартментализации)
+// - Authentic8
+// - Maxton
+// - AirGap
+// - Turbo.net
+
+
+// http-фильтры/блокировщики
+// uBlock Origin - кастомизируемый фильтр (нужно вкл галочку в настр предотвращение трекинга ip по WebRTC)
+// uMatrix - с более расшир функционалом
+// disconnect.me - по функционалу похож на предыдущий
+// adblockPlus
+// Privacy Badger
+// AdGuard (ios)
+// BetterPrivacy-signer - для удаления локальных объектов и супер-куки
+// Decentraleyes - замена SDN локальными файлами
+
+// js-фильтры
+// NoScript Security Suite - защита от межсайтового скриптинга
+// Policeman
+
+// virustotal.com - мануальный тестировщик потенциально вредоносных сайтов
+// ccleaner - глобальное удаление темп-файлов
+// bleach bit - аналог ccleaner
+
+// https://github.com/MoscaDotTo/Winapp2/blob/master/Winapp2.ini - расширение для ccleaner (windws)
+
+// samy.pl/evercookie - тестирование сохранения супер-куки
+// в userData, coookieData, localData, globalData, sessionData, windowData, pngData, etagData, cacheData, lsoData, slData (могут быть выявлены при локально экспертизе)
+
+// http referrer
+// трекинг ресурса с которого пришли (в формате веб-заголовка)
+// плагины для контроля referrer
+// RefControl
+// Smart Referer

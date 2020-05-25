@@ -137,6 +137,7 @@ netstat -tuln   // проверка портов
 // большая уникальность браузера связана с меньшей анонимностью (наличием adblock, блокеры для трекинга, отсутствием защиты от fingerprint записи)
 // panopticlick.eff.org  - тест браузера на уникальность
 // ipleak.net - детальное описание доступных данных о браузере (включая исп tor)
+// browsweleak.com
 // идентификация пользователя может осуществл по обратной связи с разработчиками дополнений, geo location, истории браузера, тегу canvas (!sic)
 // слежка может производиться со стороны ОС
 // google исп NID и SID куки для персонализации рекламы
@@ -219,3 +220,25 @@ netstat -tuln   // проверка портов
 // плагины для контроля referrer
 // RefControl
 // Smart Referer
+
+
+// fingerprinting
+// основная цель - сделать отпечаток менее уникальным
+// что может влиять: плагины, html5 canvas, open TCP ports and Local Network Fingerprinting, invasive authentification mechanism, usb device id, fonts, monitor, widget, desctop resolution, webGL, user agent, http headers, locale fingerprinting, timezone, clock offset, js performance fingerprinting, keystroke fingerprinting, operating system type fingerprinting etc
+
+// дополнения для рендомизации fingerprint
+// Random Agent Spoofer - замена юзерагента
+// Canvas Blocker - защита от html5 canvas принтинга
+
+// html5 canvas принтинг работает по методу создания уникальной сигнатуры, анализируя рендер картинки, Canvas Blocker настр таким образом, что обновляет создание сигнатур
+// browserleaks.com/canvas - для теста
+
+// решения
+// либо однообразие, либо рендомизация
+// лучше всего исп tor для минимизации поверхности фингерпринтинга
+// JonDoFox (браузер) обеспеч опр единообразие
+// исп вирутальных машин
+
+// Sertificate Patrol - аддон щлёт оповещения о смене сертификата для https подкл
+// Perspectives - тестирует сертификаты по уровню доверенности, согласно словарю
+
